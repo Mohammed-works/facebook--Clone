@@ -1,0 +1,170 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 250px;
+  z-index: 200;
+  padding-top: 5px;
+  background-color: rgb(234, 234, 234);
+  font-family: Roboto,arial;
+  font-weight: 500;
+  padding-bottom: 3000px;
+  overflow-y:auto;
+}
+
+.sidebar-link{
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 10px;
+}
+
+.sidebar-profile-pic{
+  width: 45px;
+  height: 45px;
+  border-radius: 22px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sidebar-profile-name{
+  margin-left: 13px;
+  font-size: 17px;
+}
+
+.sidebar-pic{
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+  object-position: center;
+  background-color: rgb(234, 234, 234);
+}
+
+.sidebar-name{
+  font-size: 15px;
+  margin-left: 13px;
+}
+
+
+.sidebar-link:hover{
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+}
+
+
+.sidebar2{
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  right: 0;
+  width: 330px;
+  z-index: 200px;
+}
+
+
+.sponsor-container1{
+  width: 370px;
+  height: 140px;
+  padding-top: 9px;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.Sponsor-img1{
+  margin-left: 15px;
+  height: 130px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sponsor-container1-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.sponsor-container1-heading{
+  font-size: 15px;
+  font-family: Roboto,arial;
+  font-weight: 500;
+  
+}
+
+.sponsor-container1-link{
+  font-size: 12px;
+  font-family: Roboto,arial;
+  color: rgb(113, 113, 113);
+  cursor: pointer;
+}
+
+.sponsor-container1:hover{
+  background-color: rgb(55, 26, 26);
+  width: 370px;
+  height: 140px;
+  padding-top: 9px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.sponsor-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.15s;
+  padding-top: 5px;
+}
+
+.Sponsor-img2{
+  object-fit: cover;
+  width: 120px;
+  height: 130px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.sponsor-container2-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  justify-content: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+   margin-right: 10px;
+}
+
+.sponsor-container2-heading{
+  font-size: 15px;
+  font-family: Roboto,arial;
+  font-weight: 500;
+}
+
+.sponsor-container2-link{
+  font-size: 12px;
+  font-family: Roboto,arial;
+  color: rgb(113, 113, 113);
+}
+
+.sponsor-container2:hover{
+  opacity: 1;
+  background-color: rgb(245, 245, 245);
+  width: 365px;
+  height: 135px;
+
+}
+
+.hamburger:hover{
+  background-color: rgb(181, 181, 181);
+}
